@@ -1,2 +1,9 @@
+# Dependencies
+node_modules/
+
+# Environment variables
 .env*
-node_modules
+!.env.example
+
+# macOS system files
+.DS_Store
