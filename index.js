@@ -25,7 +25,7 @@ const model = new OpenAIChatCompletionsModel(openai, process.env.OLLAMA_MODEL);
 const query = "What is the weather in Chitradurga, Bengaluru, and Mysore?";
 async function main() {
   try {
-    const result = await WeatherAgent(query, model);
+    // const result = await WeatherAgent(query, model);
     console.log("Agent Response:");
     console.log(result);
   } catch (error) {
